@@ -8,6 +8,8 @@
   (global-set-key (kbd "C-c y") 'youdao-dictionary-search-at-point))
 
 ;;; company-english-helper
+(push (expand-emacs-dir "packages/english-helper") load-path)
+(require 'company-english-helper)
 
 (provide 'init-translate)
 ;;; init-translate.el ends here
