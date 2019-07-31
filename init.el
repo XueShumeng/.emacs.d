@@ -29,21 +29,8 @@
 (require 'init-undotree)
 (require 'init-webmode)
 (require 'init-whichkey)
+(require 'init-network)
+(require 'init-golang)
 
 (provide 'init)
 ;;; init.el ends here
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-bullets-bullet-list (quote ("☰" "☱" "☲" "☳" "☴" "☵" "☶" "☷")))
- '(package-selected-packages
-   (quote
-    (which-key web-mode undo-tree youdao-dictionary switch-window yasnippet-snippets yasnippet phi-rectangle counsel-projectile projectile htmlize ox-reveal org-bullets markdown-mode lua-mode slime auctex dockerfile-mode company diff-hl magit erlang auto-highlight-symbol page-break-lines highlight-indent-guides beacon gruvbox-theme zenburn-theme solarized-theme dracula-theme ivy-rich counsel swiper exec-path-from-shell))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
