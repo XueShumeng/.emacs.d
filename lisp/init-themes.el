@@ -2,13 +2,19 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'dracula-theme)
+(when (maybe-require-package 'dracula-theme))
 
-(maybe-require-package 'solarized-theme)
+(when (maybe-require-package 'solarized-theme))
 
-(maybe-require-package 'zenburn-theme)
+(when (maybe-require-package 'zenburn-theme))
 
-(when (maybe-require-package 'gruvbox-theme) (load-theme 'gruvbox-light-medium t))
+(when (maybe-require-package 'spacemacs-theme))
+
+(when (maybe-require-package 'gruvbox-theme))
+
+(when (maybe-require-package 'lab-themes))
+
+(when (maybe-require-package 'subatomic-theme))
 
 
 (when (maybe-require-package 'beacon) (beacon-mode))
