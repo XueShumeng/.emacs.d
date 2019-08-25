@@ -16,6 +16,14 @@
 
 (when (maybe-require-package 'subatomic-theme))
 
+(when (maybe-require-package 'chocolate-theme))
+
+(when (maybe-require-package 'flucui-themes))
+
+(when (maybe-require-package 'srcery-theme))
+
+(when (maybe-require-package 'kaolin-themes))
+
 
 (when (maybe-require-package 'beacon) (beacon-mode))
 
