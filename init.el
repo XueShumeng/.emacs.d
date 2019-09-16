@@ -31,6 +31,7 @@
 (require 'init-whichkey)
 (require 'init-network)
 (require 'init-golang)
+(require 'init-yaml)
 
 (provide 'init)
 ;;; init.el ends here
