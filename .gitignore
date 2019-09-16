@@ -1,0 +1,6 @@
+
+packages/*
+url/*
+.automake/*
+*.dat
+*.eld
