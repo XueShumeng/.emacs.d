@@ -6,3 +6,7 @@ url/*
 *.eld
 elpa
 transient
+auto-save-list
+bookmarks
+eshell
+recentf
