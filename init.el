@@ -32,6 +32,7 @@
 (require 'init-network)
 (require 'init-golang)
 (require 'init-yaml)
+(require 'init-evil)
 
 (provide 'init)
 ;;; init.el ends here
